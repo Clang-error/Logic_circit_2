@@ -12,11 +12,13 @@
 
 
 //함수원형
-void Control();
+void control();
 int bit_Size();
 void input_Data();
+void need_Parity();
 void set_Hamming();
-void print_Hamming();
+void print_Hamming_Code();
+
 
 
 

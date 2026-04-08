@@ -5,5 +5,5 @@
 #include "Common.h"
 
 int main() {
-    Control();
+    control();
 }

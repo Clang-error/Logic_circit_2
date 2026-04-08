@@ -4,7 +4,7 @@
 
 #include "Common.h"
 
-void Control() {
+void control() {
     // char buffer[100];
     int bits = bit_Size();
     printf("%d",bits);
