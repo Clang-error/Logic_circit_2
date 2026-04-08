@@ -14,9 +14,9 @@
 //함수원형
 void control();
 int bit_Size();
-void input_Data();
-void need_Parity();
-void set_Hamming();
+int need_Parity(int bit_size);
+void input_Data(char *buffer, int len);
+void set_Hamming(char *buffer, int len, int parity_bits);
 void print_Hamming_Code();
 
 

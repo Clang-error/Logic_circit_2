@@ -5,7 +5,11 @@
 #include "Common.h"
 
 void control() {
-    // char buffer[100];
+    char buffer[100];
     int bits = bit_Size();
-    printf("%d",bits);
+    int parityBits = need_Parity(bits);
+    input_Data(buffer,bits);
+    set_Hamming(buffer,bits,parityBits);
+
+
 }

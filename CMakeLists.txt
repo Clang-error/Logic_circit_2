@@ -10,7 +10,7 @@ add_executable(Logic_circit_2
         Common.h
         Bit_Size.c
         Control_Flow.c
-        need_Parity.c
-        need_Parity.c
-        set_Hamming.c
+        Need_Parity.c
+        Need_Parity.c
+        Set_Hamming.c
 )
