@@ -8,6 +8,8 @@ include_directories(.)
 add_executable(Logic_circit_2
         main.c
         Common.h
-        input_handle.c
+        bitSize.c
         Control_Flow.c
+        need_Parity.c
+        need_Parity.c
 )

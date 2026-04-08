@@ -13,7 +13,10 @@
 
 //함수원형
 void Control();
-void get_input(char * buffer);
+int bit_Size();
+void input_Data();
+void set_Hamming();
+void print_Hamming();
 
 
 

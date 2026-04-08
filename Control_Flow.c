@@ -5,6 +5,7 @@
 #include "Common.h"
 
 void Control() {
-    char buffer[100];
-    get_input(buffer);
+    // char buffer[100];
+    int bits = bit_Size();
+    printf("%d",bits);
 }
