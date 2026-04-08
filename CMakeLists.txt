@@ -7,5 +7,7 @@ include_directories(.)
 
 add_executable(Logic_circit_2
         main.c
-        Convert.h
-        input_handle.c)
+        Common.h
+        input_handle.c
+        Control_Flow.c
+)

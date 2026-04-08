@@ -4,6 +4,7 @@
 
 #include "Common.h"
 
-int main() {
-    Control();
+void Control() {
+    char buffer[100];
+    get_input(buffer);
 }
