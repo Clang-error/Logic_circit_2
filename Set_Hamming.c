@@ -3,6 +3,11 @@
 //
 #include "Common.h"
 
-void set_Hamming(char *buffer, int bits, int parity_bits) {
+void set_Hamming(char *buffer, int *arr, int len) {
+    printf("%d",len);
+    int bLen= strlen(buffer);
+    
+
+
 
 }
