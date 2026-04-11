@@ -13,4 +13,6 @@ add_executable(Logic_circit_2
         Need_Parity.c
         Need_Parity.c
         Set_Hamming.c
+        Print_Hamming_Code.c
+        Print_Hamming_Code.c
 )

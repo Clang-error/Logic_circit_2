@@ -11,7 +11,11 @@ void control() {
     input_Data(buffer,bits);
     int * hamming_Code = malloc(sizeof(int)*(bits+parity_Bits));
     int hamming_Len = bits+parity_Bits;
-    set_Hamming(buffer,hamming_Code,hamming_Len);
+    for (int i = 0; i < hamming_Len; i++) {
+        hamming_Code[i] = 2;
+    }
+    set_Hamming(buffer,hamming_Code,hamming_Len,parity_Bits);
+    print_Hamming_Code(hamming_Code,hamming_Len);
 
 
     free(hamming_Code);
