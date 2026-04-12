@@ -22,10 +22,12 @@ void set_Hamming(char *buffer, int *arr, int len,int pBits) {
                     set_Bit_count++;
                }
            }
-           if (set_Bit_count%2==0)
+           if (set_Bit_count%2==0) {
                arr[i]=0;
+           }
            else arr[i]=1;
        }
+
     }
     //p1 = 한번 찾고 한턴쉬고
     //p2 = 두번찾고 두턴쉬고

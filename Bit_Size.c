@@ -6,8 +6,15 @@
 
 int bit_Size() {
     int a;
-    printf("비트사이즈를 입력하시오: ");
-    scanf("%d",&a);
+    while (1) {
+        printf("데이터비트의 사이즈를 입력하시오: ");
+        scanf("%d",&a);
+        if (a > MAX_RANGE || a < MIN_RANGE) {
+            printf("1과 100의 범위 내에서 비트사이즈를 지정해주세요.\n");
+            continue;
+        }
+        break;
+    }
     return a;
 }
 

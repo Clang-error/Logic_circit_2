@@ -9,7 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#define MAX_RANGE 100
+#define MIN_RANGE 1
 
 //함수원형
 void control();
@@ -17,8 +18,7 @@ int bit_Size();
 int need_Parity(int bit_size);
 void input_Data(char *buffer, int len);
 void set_Hamming(char *buffer, int *arr, int len,int pBits);
-void print_Hamming_Code(int *arr,int len);
-
+void print_Hamming_Code(int *arr,int len,int dLen);
 
 
 
