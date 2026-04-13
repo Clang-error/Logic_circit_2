@@ -13,6 +13,5 @@ void print_Hamming_Code(int *arr,int len,int dLen) {
     for (int i = 0; i < len; i++) {
         printf("%d", arr[i]);
     }
-    printf("");
-    printf("-----------------------------------------------------\n");
+    printf("\n-----------------------------------------------------\n");
 }
