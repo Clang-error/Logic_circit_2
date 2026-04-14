@@ -20,7 +20,7 @@ int bit_Size();
 int need_Parity(int bit_size);
 void input_Data(char *buffer, int len);
 void set_Hamming(char *buffer, int *arr, int len,int pBits);
-void print_Hamming_Code(int *arr,int len,int dLen);
+void print_Hamming(int *arr,int len,int dLen);
 
 
 

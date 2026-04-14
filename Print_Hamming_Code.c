@@ -4,7 +4,7 @@
 
 #include "Common.h"
 
-void print_Hamming_Code(int *arr,int len,int dLen) {
+void print_Hamming(int *arr,int len,int dLen) {
 
     printf("\n-----------------------------------------------------\n");
     printf("입력하신 데이터비트의 해밍코드는\n");
