@@ -10,7 +10,7 @@ void set_Hamming(char *buffer, int *arr, int len,int pBits) {
             continue;
         }
         arr[i] = buffer[count]-'0';
-        count++; //패리티비트에 알맞은값만 넣으면 끝.
+        count++;
     }
     for (int i = 0; i<len; i++) { // & 연산자를 사용할것.
        if (arr[i]==2) {
